@@ -17,5 +17,8 @@ public class Main {
         person1.setAge(26);
         System.out.println("After birthday:");
         person1.displayInfo();
+        person1.setAge(32);
+        System.out.println("After six birthdays: ");
+        person1.displayInfo();
     }
 }
