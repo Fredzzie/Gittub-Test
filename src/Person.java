@@ -30,4 +30,9 @@ public class Person {
     public void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
+
+    // New method to greet
+    public void greet() {
+        System.out.println("Hello, my name is " + name + "!");
+    }
 }

@@ -7,9 +7,11 @@ public class Main {
         // Display information
         System.out.println("Person 1:");
         person1.displayInfo();
+        person1.greet();
 
         System.out.println("Person 2:");
         person2.displayInfo();
+        person2.greet();
 
         // Modify and display again
         person1.setAge(26);
